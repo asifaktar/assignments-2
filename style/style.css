@@ -16,7 +16,7 @@
 /* nav style */
 
 .section{
-    height:600px ;
+    height:33.20rem;
     background-color:  rgb(33, 32, 32)
     ;
 }
@@ -57,6 +57,87 @@
     color: rgb(255, 255, 255);
 }
 
+.title{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 5rem;
+    color: rgb(255, 255, 255);
+}
+
+.second-div{
+    margin-left: 11rem;
+    margin-top: 2rem;
+}
+
+.para{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn{
+    margin-top: 1rem;
+}
+.btn-2{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(230, 83, 60);
+
+}
+
+.btn-3{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 50px;
+    border: none;
+}
+
+.img-1{
+    height: 27rem;
+    width: 15rem;
+    margin-left: 9rem;
+    
+}
+
+.v{
+   color: rgb(250, 250, 249)
+}
+
+.p{
+    color: rgba(255, 255, 255, 0.65);
+}
+.video-5{
+    position: relative;
+    height: 2rem;
+    width: 5rem;
+    padding: 10px 10px 10px 10px;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 6rem;
+    margin-left: 5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgb(255, 255, 255, 0.1);
+}
+
+.video-3{
+    position: relative;
+    height: 2rem;
+    width: 6rem;
+    padding: 10px 10px 10px 10px;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 20rem;
+    margin-left: -18rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgb(255, 255, 255, 0.1);
+}
 
 
 
