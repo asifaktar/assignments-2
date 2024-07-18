@@ -103,21 +103,21 @@
 }
 
 .v{
-   color: rgb(250, 250, 249)
+    color: rgb(255, 255, 255);
 }
 
 .p{
-    color: rgba(255, 255, 255, 0.65);
+    color: rgba(239, 237, 232, 0.65);
 }
 .video-5{
-    position: relative;
+    
     height: 2rem;
     width: 5rem;
     padding: 10px 10px 10px 10px;
     font-size: 10px;
     font-weight: 400;
-    margin-top: 6rem;
     margin-left: 5rem;
+    margin-top: -20rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(10px);
@@ -131,20 +131,49 @@
     padding: 10px 10px 10px 10px;
     font-size: 10px;
     font-weight: 400;
-    margin-top: 20rem;
-    margin-left: -18rem;
+    margin-top: -6rem;
+    margin-left: 6rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(10px);
     background: rgb(255, 255, 255, 0.1);
 }
 
+/* main style */
 
+.title-4{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
 
+/* Responsshiv style*/
 
+@media screen and (max-width:576px) {
+    .navber{
+        flex-direction: column;
+    }
+    .title-2{
+       margin-top: 25rem;
+       margin-left: -25rem;
+       margin-right: 5rem;
+    }
+    .navber{
+        margin-left: 1rem;
+    }
+    .section{
+        height: 995px;
+    }
+    .second-div{
+        
+        margin-left: 1rem;
+    }
+    
 
+    
+}
 
-
+ 
 
 
 
