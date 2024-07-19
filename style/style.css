@@ -195,9 +195,9 @@ main{
 /* main style-2 */
 
 .master{ 
-     margin-left: 23%;
+     margin-left: 16%;
     margin-right: 23%;     
-    width: 44rem;
+    width: 54rem;
 }
 .hero-2{
     height: 15rem;
@@ -209,8 +209,8 @@ main{
 }
 
 .hero-title-2{
-    padding: 1rem 1rem;
-    gap: 2rem;
+    padding: 1rem 1rem 1rem 2rem;
+    gap: 12rem;
     /* justify-content: center;
     align-items: center; */
 }
@@ -222,7 +222,51 @@ main{
     align-items: center;
 }
 
+/* terning style */
 
+.instute .jim{
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+.jim-title{
+    margin-top: 3rem;
+    margin-left: 12.60rem;
+    justify-content: center;
+    align-items: center;
+}
+.jim-p{
+ 
+}
+
+.traning{
+    margin-top: 2rem;
+}
+.i-1{
+    width: 18rem;
+    height: 10rem;
+} 
+.i-2{
+    width: 18rem;
+    height: 10rem;
+}
+.i-3{
+    width: 18rem;
+    height: 10rem;
+}
+.i-4{
+    width: 18rem;
+    height: 10rem;
+}
+.i-5{
+    width: 18rem;
+    height: 10rem;
+}
+.i-6{
+    width: 18rem;
+    height: 10rem; 
+}
 
 
 
@@ -282,7 +326,36 @@ main{
 
     }
     .img-4{
-        width: 13.50rem;
+        width: 12.50rem;
+        margin-top: -11rem;
+    }
+
+    .jim-title{
+        margin-left: 22px;
+    }
+    .i-1{
+        width: 8rem;
+        height: 7rem;
+    } 
+    .i-2{
+        width: 8rem;
+        height: 7rem;
+    }
+    .i-3{
+        width: 8rem;
+        height: 7rem;
+    }
+    .i-4{
+        width: 8rem;
+        height: 7rem;
+    }
+    .i-5{
+        width: 8rem;
+        height: 7rem;
+    }
+    .i-6{
+        width: 8rem;
+        height: 7rem; 
     }
 
     
