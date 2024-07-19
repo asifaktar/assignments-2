@@ -189,7 +189,38 @@ main{
     color: rgb(255, 255, 255);
 }
 
+.justyfai{
+    
+}
+/* main style-2 */
 
+.master{ 
+     margin-left: 23%;
+    margin-right: 23%;     
+    width: 44rem;
+}
+.hero-2{
+    height: 15rem;
+    /* width: 44rem; */
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(61, 63, 63);
+    
+}
+
+.hero-title-2{
+    padding: 1rem 1rem;
+    gap: 2rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+.img-4{
+    height:13rem;
+    width: 16rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -213,7 +244,7 @@ main{
 /* Responsshiv style*/
 
 @media screen and (max-width:576px) {
-    .navber,.hero-section{
+    .navber,.hero-section,.hero-2,.hero-title-2{
         flex-direction: column;
     }
     .hero-section{
@@ -230,13 +261,29 @@ main{
         margin-left: 1rem;
     }
     .section{
-        height: 995px;
+        height: auto;
     }
     .second-div{
         
         margin-left: 1rem;
     }
     
+    .main-hero{
+        height: 200rem;
+        background-color: rgba(26, 22, 22, 0.998);
+    }
+    .master{
+        height: 530px;
+        width: 250px;
+        border-radius: 1rem;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(61, 63, 63);
+
+    }
+    .img-4{
+        width: 13.50rem;
+    }
 
     
 }
