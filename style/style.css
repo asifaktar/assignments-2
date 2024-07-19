@@ -146,25 +146,29 @@ main{
 }
 
 .title-4{
-    margin-top: 100px;
+    margin-bottom: 1rem;
 }
 
 .main-hero{
+    
+
+}
+
+.hero{
+    padding-top: 1.50rem;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero-section{
-    margin-top: 3rem;
-    gap: 2.20rem;
+    margin-top: 1rem;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
 }
 
 .img-3{
     height: 8rem;
-    width: 10rem;
+    width: 9rem;
     border-radius: 50%;
 }
 
@@ -180,7 +184,7 @@ main{
     color: rgba(255, 255, 255, 0.5)
 }
 .title-4{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
@@ -209,9 +213,14 @@ main{
 /* Responsshiv style*/
 
 @media screen and (max-width:576px) {
-    .navber{
+    .navber,.hero-section{
         flex-direction: column;
     }
+    .hero-section{
+        justify-content: center;
+        align-items: center;
+    }
+
     .title-2{
        margin-top: 25rem;
        margin-left: -25rem;
